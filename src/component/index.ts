@@ -1,1 +1,7 @@
 export { ToogleTheme } from './ToogleTheme'
+export { Main } from './Main'
+export { Installation } from './Installation'
+export { FenceType } from './FenceType'
+export { Benefits } from './Benefits'
+export { Quote } from './Quote'
+export { Quality } from './Quality'

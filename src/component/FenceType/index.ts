@@ -1,0 +1,1 @@
+export { FenceType } from './FenceType'

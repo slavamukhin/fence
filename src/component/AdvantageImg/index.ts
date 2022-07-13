@@ -1,0 +1,1 @@
+export { AdvantageImg } from './AdvantageImg'
