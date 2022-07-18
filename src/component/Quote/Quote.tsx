@@ -6,12 +6,26 @@ const QuoteWrapper = styled.div`
   color: #fff;
   text-align: center;
   padding: 40px 120px 100px;
+
+  @media (max-width: 1040px) {
+    padding: 40px 0 60px;
+  }
+
+  @media (max-width: 800px) {
+    padding: 20px 0 40px;
+  }
 `
 
 const QuoteSymbol = styled.div`
   font-size: 150px;
   line-height: 30px;
   margin: 60px 0 30px;
+
+  @media (max-width: 1040px) {
+    font-size: 120px;
+    line-height: 20px;
+    margin: 40px 0 20px;
+  }
 `
 
 const NameWrapper = styled.div`

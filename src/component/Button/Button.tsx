@@ -13,8 +13,17 @@ const ButtonWrapper = styled.a`
   font-weight: 100;
   font-size: 24px;
   margin-top: 50px;
+
   &:hover {
     border-color: #fff;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 16px;
   }
 `
 

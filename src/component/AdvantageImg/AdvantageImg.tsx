@@ -8,6 +8,16 @@ const AdvantageImgWrapper = styled.img`
   width: 50%;
   height: 100%;
   margin-top: 42px;
+
+  @media (max-width: 1220px) {
+    margin-top: 32px;
+  }
+
+  @media (max-width: 1040px) {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 `
 
 export const AdvantageImg: FC = () => {

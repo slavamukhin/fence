@@ -5,6 +5,10 @@ import { Text } from "../Text"
 
 const AdvantageWrapper = styled.div`
   width: 47%;
+
+  @media (max-width: 1040px) {
+    width: 100%;
+  }
 `
 
 interface AdvantageProps {

@@ -6,6 +6,14 @@ const VideoWrapper = styled.video`
   width: 50%;
   height: 100%;
   margin-top: 42px;
+
+  @media (max-width: 1220px) {
+    margin-top: 32px;
+  }
+
+  @media (max-width: 1040px) {
+    width: 100%;
+  }
 `
 
 export const Video: FC = () => {

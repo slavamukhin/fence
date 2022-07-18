@@ -44,7 +44,16 @@ const FenceTypeDate: FenceTypeDateType[] = [
 const FenceTypeWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 100px
+  margin: 20px 0 100px;
+
+  @media (max-width: 1040px) {
+    flex-wrap: wrap;
+    margin: 20px 0 60px;
+  }
+
+  @media (max-width: 600px) {
+    margin: 20px 0 40px;
+  }
 `
 
 export const FenceType: FC = () => {

@@ -5,6 +5,14 @@ import { Text } from "../Text"
 
 const InstallationWrapper = styled.div`
   margin: 100px 0 40px;
+
+  @media (max-width: 1040px) {
+    margin: 60px 0 40px;
+  }
+
+  @media (max-width: 600px) {
+    margin: 40px 0 40px;
+  }
 `
 
 export const Installation: FC = () => {

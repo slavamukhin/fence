@@ -8,6 +8,10 @@ const ContactWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 30px 0 40px 0;
+
+  @media (max-width: 390px) {
+    flex-direction: column;
+  }
 `
 
 export const Contact: FC = () => {

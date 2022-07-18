@@ -8,6 +8,15 @@ const QualityWrapper = styled.div`
   align-items: start;
   justify-content: space-between;
   margin: 60px 0 100px;
+
+  @media (max-width: 1040px) {
+    margin: 60px 0 80px;
+    flex-direction: column;
+  }
+
+  @media (max-width: 600px) {
+    margin: 40px 0 60px;
+  }
 `
 
 export const Quality: FC = () => {
