@@ -33,7 +33,7 @@ export const Button: FC = () => {
       href="https://wa.me/79032744455?text=интересует%20забор"
       target='_blank'
     >
-      text us on WhatsApp
+      написать в WhatsApp
     </ButtonWrapper>
   )
 }

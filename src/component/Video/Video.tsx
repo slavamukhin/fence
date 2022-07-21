@@ -4,7 +4,6 @@ import video from '../../img/quality.mp4'
 
 const VideoWrapper = styled.video`
   width: 50%;
-  height: 100%;
   margin-top: 42px;
 
   @media (max-width: 1220px) {
@@ -17,5 +16,5 @@ const VideoWrapper = styled.video`
 `
 
 export const Video: FC = () => {
-  return <VideoWrapper controls><source src={video} type="video/mp4"/></VideoWrapper>
+  return <VideoWrapper height="480" controls><source src={video} type="video/mp4"/></VideoWrapper>
 }

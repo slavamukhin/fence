@@ -9,7 +9,7 @@ const Blackout = styled.div<MainProps>`
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: ${({footer}) => footer ? 'rgba(0,0,0,0.5)' : 'rgba(0,0,0,0.2)'};
+  background-color: ${({footer}) => footer ? 'rgba(0,0,0,0.5)' : 'rgba(0,0,0,0.5)'};
 `
 
 interface MainProps {

@@ -17,7 +17,7 @@ const InstallationWrapper = styled.div`
 
 export const Installation: FC = () => {
   return <InstallationWrapper>
-    <BlockTitle text="Fance installation" />
-    <Text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Vivamus magna ante, fermentum sed augue eu, ultricies ornare massa. Curabitur congue ac massa vitae hendrerit. Vivamus eu tellus quis felis tincidunt aliquet. Quisque libero quam, tincidunt vitae tellus id, pharetra iaculis arcu. Proin nulla leo, vulputate euismod porttitor sit amet, placerat elementum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas quis pellentesque magna. Nulla varius lorem elit, vel scelerisque leo euismod eu. Cras luctus pulvinar congue. Aenean venenatis risus ac lorem hendrerit ornare."/>
+    <BlockTitle text="Установка забора" />
+    <Text text="С давних времен люди использовали ограждения. Они применялись не только для охраны имущества, но и для обозначения границ участка. Я Юдинцев Андрей занимаюсь изготовлением и устаноыкой заборов с 2017 г. За это время работы мне удалось выполнить около 200 работ. Напишите мне в WhatsApp или позвоните по номеру +7(903)274-44-55 для уточнения сроков и стоимости вашего забора. У меня есть хороший опыт установки сеточных ограждений, железных, из винила и дерева и др. материалов. Если вы точно не знаете какой забор установить также связитесь со мной и я вас проконсультирую."/>
   </InstallationWrapper>
 }

@@ -7,6 +7,7 @@ const LogoWrapper = styled.a`
   color: #d5d5d5;
   box-shadow: 2px 3px;
   padding-right: 10px;
+  padding-left: 4px;
   font-weight: 800;
   cursor: pointer;
   text-decoration: none;
@@ -31,5 +32,5 @@ const LogoWrapper = styled.a`
 `
 
 export const Logo: FC = () => {
-  return <LogoWrapper href="/">fancing company</LogoWrapper>
+  return <LogoWrapper href="/">Юдинцев Андрей</LogoWrapper>
 }

@@ -37,9 +37,9 @@ const NameWrapper = styled.div`
 export const Quote: FC = () => {
   return <QuoteWrapper>
       <QuoteSymbol>&#10077;</QuoteSymbol>
-      <Text color="#fff" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Vivamus magna ante, fermentum sed augue eu, ultricies ornare massa. Curabitur congue ac massa vitae hendrerit. Vivamus eu tellus quis felis tincidunt aliquet. Quisque libero quam, tincidunt vitae tellus id, pharetra iaculis arcu. Proin nulla leo, vulputate euismod porttitor sit amet, placerat elementum augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas quis pellentesque magna. Nulla varius lorem elit, vel scelerisque leo euismod eu. Cras luctus pulvinar congue. Aenean venenatis risus ac lorem hendrerit ornare.' />
+      <Text color="#fff" text='Имейте в виду, если вы сделаете быстро и плохо, то люди забудут, что вы сделали быстро, и запомнят, что вы сделали плохо. Если вы сделаете медленно и хорошо, то люди забудут, что вы сделали медленно, и запомнят, что вы сделали хорошо!' />
       <NameWrapper>
-        <Text color="#fff" text='John Smit'/>
+        <Text color="#fff" text='Юдин Андрей'/>
       </NameWrapper>
   </QuoteWrapper>
 }

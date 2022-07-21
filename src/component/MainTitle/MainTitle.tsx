@@ -12,7 +12,7 @@ const MainTitleWrapper = styled.h1`
   z-index: 1;
   position: relative;
   text-align: center;
-  width: 60%;
+  width: 80%;
 
   @media (max-width: 1220px) {
     font-size: 40px;
@@ -61,7 +61,7 @@ const Wrapper =styled.div`
 export const MainTitle: FC = () => {
   return (
     <Wrapper>
-      <MainTitleWrapper>Individuality designed fencing for you</MainTitleWrapper>
+      <MainTitleWrapper>Закажи забор с установкой в Москве и МО любой сложности</MainTitleWrapper>
       <Button />
     </Wrapper>
   )

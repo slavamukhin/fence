@@ -23,8 +23,8 @@ export const Benefits: FC = () => {
   return <BenefitsWrapper>
     <AdvantageImg />
     <Advantage 
-      title="Why fencing company"
-      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis."
+      title="Почему вам стоит со мной связаться?"
+      text="Если вы решили построить забор на вашем участке, первое что я сделаю это узнаю ваши мысли об этом и помогу избежать ошибок при выборе материала ограждения, и монтаже. Что скажется на качестве, везуале, цене и сроки службы вашего забора. Так же я помогу вам заказать забор из наиболее качественных материалов, что скажится на его сроки службы. Я профессионал своего дела и выполняю сою работу максимально качественно. Для меня важно помочь каждому обратившимуся ко мне, поэтому я работою с любым бюджетом и делаю максимум что умею и могу."
     />
   </BenefitsWrapper>
 }
