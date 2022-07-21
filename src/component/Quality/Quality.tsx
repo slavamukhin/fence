@@ -22,8 +22,8 @@ const QualityWrapper = styled.div`
 export const Quality: FC = () => {
   return <QualityWrapper>
     <Advantage 
-      title="Quality fences uncompromised work"
-      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium tempor facilisis."
+      title="Качественные заборы, бескомпромиссная работа"
+      text="В этом проекте была задача влиться в общую картину домовладения. С заданием успешно справились, цена забора всегда зависит от вашего технического задания. Мы одни из немногих можем построить полностью из ваших материалов"
     />
     <Video />
   </QualityWrapper>
